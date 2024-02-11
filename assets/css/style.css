@@ -1,0 +1,36 @@
+*{
+    font-family: Roboto;
+}
+
+img{
+    max-height: 250px;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: 500;
+}
+
+a,p{
+    font-weight: 300;
+}
+
+.header{
+    background-image: url(../img/hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    min-height: 400px;
+}
+
+.presentacion{
+    margin-top: -240px;
+}
+
+.iconos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-card{
+    max-height: 220px;
+}
